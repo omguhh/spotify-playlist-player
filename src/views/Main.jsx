@@ -3,12 +3,26 @@
 import React from 'react';
 import Artwork from './components/Artwork';
 import Artist from './components/Artist';
+import Player from './components/Player';
 
 export default class Main extends React.Component {
     render() {
         return <div className="player__wrapper">
-            <Artist name="SZA" album="Ctrl" song="Drew Barrymore"/>
-            <Artwork artwork="https://is3-ssl.mzstatic.com/image/thumb/Music117/v4/ca/97/bb/ca97bb6e-618b-3f98-3f3b-0937d48112e2/886446548432.jpg/1200x630bb.jpg" />
+            <Artist name={this.props.track.artist} album={this.props.track.album} song={this.props.track.name}/>
+            <Artwork artwork={this.props.track.artwork} />
+            <Player source={this.props.track.source} duration={this.props.track.duration} />
         </div>;
+    }
+}
+
+Main.defaultProps = {
+    track: {
+        name: "Drew Barrymore",
+        artist: "SZA",
+        album: "Ctrl",
+        year: 2012,
+        artwork: "http://s1.r29static.com/bin/entry/ab2/0,0,2000,2400/720x864/1811107/image.png",
+        duration: 192,
+        source: "http://cdn.muzmo.ru/music/20170905/muzmo_ru_SZA_-_Drew_Barrymore_48200783.mp3?sid=6001f8rvgj1daef1rf7boeg3r2"
     }
 }

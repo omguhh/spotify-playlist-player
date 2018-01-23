@@ -15,3 +15,25 @@ body {
     font-family: 'Fjalla One', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.Scrubber {
+    position: absolute;
+    bottom: 0;
+    bottom: 30px;
+    left: 100px;
+    width: 54%;
+    height: 5%;
+    opacity: 1;
+    transition: opacity .25s ease;
+    z-index: 0;
+
+
+}
+
+.Scrubber-Progress {
+    height: 100%;
+    width: 0%;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.25s ease;
+}

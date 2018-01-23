@@ -4,13 +4,13 @@
 }
 
 .artist__title {
-    color: #689bf8;
+    /*color: #689bf8;*/
     letter-spacing: 5px;
     font-size: 28px;
 }
 
 .artist__album {
-    color: #689bf8;
+    /*color: #689bf8;*/
     text-transform: uppercase;
     letter-spacing: 5px;
 
