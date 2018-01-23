@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Adamina|Fjalla+One');
+#app {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    justify-content: center;
+}
+
+body {
+    background: white;
+    font-family: 'Fjalla One', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

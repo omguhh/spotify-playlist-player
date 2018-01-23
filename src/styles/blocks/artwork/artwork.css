@@ -1,0 +1,8 @@
+.artwork__image{
+    height: 315px;
+    position: absolute;
+    width: 315px;
+    z-index: 10;
+    right: -60px;
+    top: 20px;
+}

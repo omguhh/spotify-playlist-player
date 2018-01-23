@@ -1,0 +1,23 @@
+.artist__details {
+    color: #ffffff;
+    max-width: 375px;
+}
+
+.artist__title {
+    color: #689bf8;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+.artist__album {
+    color: #689bf8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.artist__song {
+    font-size: 48px;
+    font-family: 'Adamina', serif;
+    margin: 0;
+}

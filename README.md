@@ -1,1 +1,1 @@
-# spotify-playlist-player
+# Simple player built with react for fun :)
