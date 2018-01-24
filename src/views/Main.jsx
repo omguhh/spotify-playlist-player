@@ -17,12 +17,12 @@ export default class Main extends React.Component {
 
 Main.defaultProps = {
     track: {
-        name: "Drew Barrymore",
-        artist: "SZA",
-        album: "Ctrl",
-        year: 2012,
-        artwork: "http://s1.r29static.com/bin/entry/ab2/0,0,2000,2400/720x864/1811107/image.png",
-        duration: 192,
-        source: "http://cdn.muzmo.ru/music/20170905/muzmo_ru_SZA_-_Drew_Barrymore_48200783.mp3?sid=6001f8rvgj1daef1rf7boeg3r2"
+        name: "Loud Places",
+        artist: "Jamie xx",
+        album: "In Colour",
+        year: 2018,
+        artwork: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Jamie_xx_-_In_Colour.png",
+        duration: 223,
+        source: "http://ol5.mp3party.net/online/8443/8443243.mp3"
     }
 }
