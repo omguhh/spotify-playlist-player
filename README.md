@@ -24,4 +24,4 @@ git clone https://github.com/omguhh/spotify-playlist-player.git
 cd spotify-playlist-player && npm install
 ```
 
-- Run `npm start` to show the Electron application window with your current build.
+- Run `npm start` to show the application window with your current build.
